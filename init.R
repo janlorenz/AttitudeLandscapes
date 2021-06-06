@@ -10,5 +10,6 @@ options(repos=r)
 
 # packages go here
 install.packages('remotes')
+install.packages('tidyverse')
 
 remotes::install_github('plotly/dashR', upgrade=TRUE)
